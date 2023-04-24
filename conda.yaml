@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=21.0.1
+  - pip:
+      - requests==2.26.0
+      - beautifulsoup4==4.10.0
+      - schedule==1.1.0
